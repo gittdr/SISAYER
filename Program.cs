@@ -441,7 +441,7 @@ namespace ConsoleApp2
 
                     DateTime fecha1 = Convert.ToDateTime(Fecha);
                     string fechaFinal = fecha1.Year + "-" + fecha1.Month + "-" + fecha1.Day + " " + fecha1.Hour + ":" + fecha1.Minute + ":" + fecha1.Second + "." + fecha1.Millisecond;
-                    string nOrigen = "2";
+                    string nOrigen = "1";
                     facLabControler.generadas(folioFactura, serieFactura, uuidFactura, pdf_xml_descargaFactura, pdf_descargaFactura, xlm_descargaFactura, cancelFactura, leg, fechaFinal, Total, Moneda, RFC, nOrigen, Destino);
                     result.Add(folioFactura);
                     result.Add(serieFactura);
